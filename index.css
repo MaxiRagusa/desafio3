@@ -1,0 +1,116 @@
+@font-face {
+    font-family: "kdam";
+    src: url("./fonts/kdam.ttf")
+}
+
+.lista-nav{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 6%;
+    font-family: "kdam";
+}
+
+nav{
+    width: 40%;
+}
+
+header{
+    
+    display: flex;
+    justify-content: space-around;
+    background: #00467f;
+    background: -webkit-linear-gradient(to right, #00467f, #a5cc82);
+    background: linear-gradient(to right, #00467f, #a5cc82);
+    flex-wrap: wrap;
+    font-family: "kdam";
+}
+    
+
+a{
+    color: black;
+    text-decoration: none;
+}
+.logo{
+    border-radius: 80%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+.div1{
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.2em;
+    
+    
+
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    margin: 5%;
+}
+.mecanico{
+    width: 40%;
+    border-radius: 5%;
+    box-shadow: 0px 0px 32px 18px rgba(0,0,0,0.64);
+    -webkit-box-shadow: 0px 0px 32px 18px rgba(0,0,0,0.64);
+    -moz-box-shadow: 0px 0px 32px 18px rgba(0,0,0,0.64);;
+    
+}
+.boton{
+    width: 40%;
+    height: 10%;
+    font-family: "kdam";
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 5px;
+    background-color:rgb(139, 211, 216) 
+ }
+
+
+
+.h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    font-family: "kdam";
+}
+section{
+    background: #BBD2C5;
+    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);
+    background: linear-gradient(to right, #536976, #BBD2C5);
+    margin-top: 0;
+
+
+}
+.container-img{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    font-family: "kdam";
+}
+.img3{
+    display: flex;
+    width: 200px;
+    height: 200px;
+
+}
+.div2{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
