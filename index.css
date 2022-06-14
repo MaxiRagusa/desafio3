@@ -20,12 +20,14 @@ header{
     
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
+    font-family: "kdam";
     background: #00467f;
     background: -webkit-linear-gradient(to right, #00467f, #a5cc82);
     background: linear-gradient(to right, #00467f, #a5cc82);
-    flex-wrap: wrap;
-    font-family: "kdam";
 }
+    
+
     
 
 a{
@@ -39,6 +41,10 @@ a{
 body{
     margin: 0;
     padding: 0;
+    background: #00467f;
+    background: -webkit-linear-gradient(to right, #00467f, #a5cc82);
+    background: linear-gradient(to right, #00467f, #a5cc82);
+    
 }
 .div1{
     width: 30%;
@@ -96,9 +102,6 @@ body{
     font-family: "kdam";
 }
 section{
-    background: #BBD2C5;
-    background: -webkit-linear-gradient(to right, #536976, #BBD2C5);
-    background: linear-gradient(to right, #536976, #BBD2C5);
     margin-top: 0;
 
 
@@ -203,6 +206,12 @@ h3{
     }
     .lorem{
         text-align: center;
+    }
+    .lista-nav{
+        flex-direction: column;
+    }
+    .logo{
+        width: 25%;
     }
 
 
